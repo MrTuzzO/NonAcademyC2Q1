@@ -1,0 +1,63 @@
+:root {
+    --bg: #06323f;
+    --primaryColor: #ffde00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: var(--bg);
+    border: 0 solid var(--primaryColor);
+}
+.r{
+    -webkit-box-reflect: below;
+}
+.b {
+    border-width: 75px 20px;
+    border-radius: 20px 0 0 20px;
+    top: 75px;
+    left: 65px;
+    -webkit-box-reflect: right 192px;
+}
+.bi {
+    border-width: 50px 9px;
+    border-radius: 10px 0 0 10px;
+    border-color: var(--bg);
+    top: 100px;
+    left: 88px;
+    -webkit-box-reflect: right 190px;
+}
+
+.bs {
+    border-width: 20px 5px;
+    border-radius: 5px 0 0 5px;
+    top: 130px;
+    left: 55px;
+    -webkit-box-reflect: right 272px;
+}
+.knife {
+    width: 80px;
+    height: 211px;
+    background:
+        linear-gradient(#0000 151px, var(--primaryColor) 150.5px 170.5px, #0000 0),
+        linear-gradient(90deg, #0000 30px, var(--primaryColor) 30px 50px, #0000 0) no-repeat 0 170px,
+        linear-gradient(90deg, #0000 15px, var(--bg) 15px 25px, var(--primaryColor) 25px 55px, var(--bg) 55px 65px, #0000 0) no-repeat 0 -58px;
+    top: 40px;
+    left: 161px;
+    z-index: 2;
+    transform: rotate(-45deg);
+    clip-path: polygon( 50% 0,100% 40px, 100% 85%, 55% 100%, 45% 100%, 0 85%, 0 40px);
+}
+.knife2 {
+    width: 80px;
+    height: 211px;
+    background:
+        linear-gradient(#0000 151px, var(--primaryColor) 150.5px 170.5px, #0000 0),
+        linear-gradient(90deg, #0000 30px, var(--primaryColor) 30px 50px, #0000 0) no-repeat 0 170px,
+        linear-gradient(90deg, #0000 15px, var(--bg) 15px 25px, var(--primaryColor) 25px 55px, var(--bg) 55px 65px, #0000 0) no-repeat 0 -58px;
+    top: 40px;
+    left: 161px;
+    transform: rotate(45deg);
+    clip-path: polygon( 50% 0,100% 40px, 100% 85%, 55% 100%, 45% 100%, 0 85%, 0 40px);
+}
